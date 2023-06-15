@@ -4,14 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.js"
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubh9713/MockApi.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubh9713/MockApi.git/issues"
+  },
+  "homepage": "https://github.com/shubh9713/MockApi.git#readme",
   "dependencies": {
-    "json-server": "^0.17.3",
-    "nodemon": "^2.0.22"
+    "cors": "^2.8.5",
+    "json-server": "^0.17.3"
   }
 }
